@@ -1,0 +1,269 @@
+/* -----------------------------------------
+Theme Dark CSS
+----------------------------------------- */
+html[theme=dark] .switch-toggle .toggle-slider::before {
+  content: "\f186" !important;
+}
+
+html[theme=light] .switch-toggle .toggle-slider::before {
+  content: "\f185" !important;
+}
+
+html[theme=dark] body {
+  background: #1d1d1d;
+  color: #999999;
+}
+html[theme=dark] .h1, html[theme=dark] .h2, html[theme=dark] .h3, html[theme=dark] .h4, html[theme=dark] .h5, html[theme=dark] .h6, html[theme=dark] h1, html[theme=dark] h2, html[theme=dark] h3, html[theme=dark] h4, html[theme=dark] h5, html[theme=dark] h6,
+html[theme=dark] :is(.banner-3, .banner-4, .banner-5) p.text-white,
+html[theme=dark] .integration-area.integration-5 .content p {
+  color: #f4f4f4 !important;
+}
+html[theme=dark] .pricing-area .item-single .content span, html[theme=dark] a,
+html[theme=dark] .pricing-plan-area .item-single .price,
+html[theme=dark] .pagination .page-numbers,
+html[theme=dark] .faq-area .accordion-item .accordion-header .accordion-button.collapsed,
+html[theme=dark] .header-area .main-navbar-area .main-responsive-nav .main-responsive-menu.mean-container a.meanmenu-reveal,
+html[theme=dark] .header-area .main-navbar-area.is-sticky .main-nav .navbar .navbar-nav .nav-item a:not(.active),
+html[theme=dark] .header-area .main-navbar-area .main-nav .navbar .navbar-nav .nav-item .dropdown-menu .nav-item a:not(.active),
+html[theme=dark] .header-area.header-7 .main-navbar-area .main-nav .navbar .navbar-nav .nav-item a:not(.active),
+html[theme=dark] .header-area .is-sticky .switch-toggle .toggle-slider::before,
+html[theme=dark] .header-area.header-7 .switch-toggle .toggle-slider::before {
+  color: #f4f4f4;
+}
+html[theme=dark] ::-moz-placeholder, html[theme=dark] .newsletter-area .newsletter-form .input-group ::-moz-placeholder {
+  color: #999999;
+}
+html[theme=dark] :-ms-input-placeholder, html[theme=dark] .newsletter-area .newsletter-form .input-group :-ms-input-placeholder {
+  color: #999999;
+}
+html[theme=dark] p,
+html[theme=dark] ::placeholder,
+html[theme=dark] .footer-area .copy-right-area,
+html[theme=dark] .pricing-area.pricing-4 .section-title p, html[theme=dark] .pricing-area.pricing-5 .section-title p,
+html[theme=dark] .mean-container .mean-nav ul li a,
+html[theme=dark] .footer-area .footer-widget .footer-links li a,
+html[theme=dark] .footer-area .footer-widget p,
+html[theme=dark] .faq-area .accordion-item .accordion-body p,
+html[theme=dark] .testimonial-area .slider-item .content .text,
+html[theme=dark] .pricing-area.pricing-2 .section-title p,
+html[theme=dark] .pricing-plan-area.pricing-plan-4 .item-single .label,
+html[theme=dark] .pricing-plan-area.pricing-plan-2 .tab-switch .text,
+html[theme=dark] .newsletter-area .newsletter-form .input-group,
+html[theme=dark] .sidebar-widget-area .widget.widget-categories ul li,
+html[theme=dark] .sidebar-widget-area .widget.widget-categories ul li a,
+html[theme=dark] .coming-soon-area .coming-soon-box #timer .count span,
+html[theme=dark] .sidebar-widget-area .widget.widget-tag ul li a,
+html[theme=dark] .blog-details-area .item-single .content .blockquote p,
+html[theme=dark] .services-area.services-2 .item-single p,
+html[theme=dark] .sidebar-widget-area .widget.widget-post .article-item .content .time,
+html[theme=dark] .newsletter-area .newsletter-form .input-group ::placeholder {
+  color: #999999;
+}
+html[theme=dark] .page-title-area h1, html[theme=dark] .page-title-area a {
+  color: #1d1d1d !important;
+}
+html[theme=dark] .banner-content p,
+html[theme=dark] p.text-white,
+html[theme=dark] .section-title p {
+  color: #999999 !important;
+}
+html[theme=dark] .mean-container .mean-nav ul li a,
+html[theme=dark] .pricing-area .item-single,
+html[theme=dark] .footer-area .copy-right-area,
+html[theme=dark] .divider .icon,
+html[theme=dark] .footer-area.footer-3 .footer-bottom,
+html[theme=dark] .footer-area .footer-widget .social-link a,
+html[theme=dark] .sidebar-widget-area .widget,
+html[theme=dark] .blog-area.blog-with-sidebar .item-single,
+html[theme=dark] .pagination .page-numbers,
+html[theme=dark] .blog-details-area .item-single,
+html[theme=dark] .sidebar-widget-area .widget.widget-tag ul li,
+html[theme=dark] .coming-soon-area .coming-soon-box .newsletter-form .input-group,
+html[theme=dark] .sidebar-widget-area .widget.widget-search .search-form .search-input,
+html[theme=dark] .newsletter-area.newsletter-3 .newsletter-form .input-group,
+html[theme=dark] .header-area .is-sticky .switch-toggle .toggle-slider::before,
+html[theme=dark] .header-area.header-7 .switch-toggle .toggle-slider::before {
+  border-color: #484848;
+}
+html[theme=dark] .form-control {
+  border-color: #656565;
+}
+html[theme=dark] .header-area .main-navbar-area .main-nav .navbar .navbar-nav .nav-item .dropdown-menu,
+html[theme=dark] .newsletter-area .newsletter-form .input-group {
+  border: 1px solid #484848;
+}
+html[theme=dark] .newsletter-area.newsletter-bg {
+  border-bottom: 1px solid #484848;
+}
+html[theme=dark] .faq-area .accordion-item .accordion-header .accordion-button,
+html[theme=dark] .header-area .main-navbar-area .main-nav .navbar .navbar-nav .nav-item .dropdown-menu::before {
+  border-bottom-color: #323232;
+}
+html[theme=dark] .bg-white {
+  background-color: #1d1d1d !important;
+}
+html[theme=dark] .pricing-area .item-single,
+html[theme=dark] .blog-area.blog-2,
+html[theme=dark] #preLoader,
+html[theme=dark] .testimonial-area.testimonial-5,
+html[theme=dark] .testimonial-area.testimonial-4 .owl-carousel .owl-dots .owl-dot,
+html[theme=dark] .accordion-item,
+html[theme=dark] .about-area.about-2,
+html[theme=dark] .about-area.about-3, html[theme=dark] .contact-area.contact-6,
+html[theme=dark] .newsletter-area.newsletter-3 .newsletter-form .input-group,
+html[theme=dark] .feedback-area.feedback-4 .slider-item .slider-item-inner .content,
+html[theme=dark] .feedback-area.feedback-3 .slider-item .slider-item-inner,
+html[theme=dark] .pricing-plan-area.pricing-plan-3,
+html[theme=dark] .blog-details-area .item-single,
+html[theme=dark] .coming-soon-area .coming-soon-box .newsletter-form .input-group,
+html[theme=dark] .coming-soon-area .coming-soon-box #timer .count,
+html[theme=dark] .faq-area.faq-3 .accordion-item, html[theme=dark] .faq-area.faq-4 .accordion-item,
+html[theme=dark] .pricing-plan-area .item-single {
+  background-color: #1d1d1d;
+}
+html[theme=dark] .owl-carousel .owl-dots .owl-dot,
+html[theme=dark] .blog-area .item-single,
+html[theme=dark] .features-area .item-single,
+html[theme=dark] .header-area .main-navbar-area.is-sticky,
+html[theme=dark] .mean-container .mean-nav,
+html[theme=dark] .dropdown-menu,
+html[theme=dark] .cta-area.cta-2,
+html[theme=dark] .video-btn,
+html[theme=dark] #preLoader .wrapper .loader,
+html[theme=dark] .choose-area.choose-5,
+html[theme=dark] .pricing-area.pricing-5,
+html[theme=dark] .about-area,
+html[theme=dark] .pricing-plan-area,
+html[theme=dark] .blog-details-area .item-single .content .blockquote,
+html[theme=dark] .home-banner-area.banner-7,
+html[theme=dark] .faq-area.faq-3, html[theme=dark] .faq-area.faq-4,
+html[theme=dark] .feedback-area .slider-item .slider-item-inner,
+html[theme=dark] .divider .line,
+html[theme=dark] .divider .icon,
+html[theme=dark] .feedback-area.feedback-3,
+html[theme=dark] .coming-soon-area .coming-soon-box,
+html[theme=dark] .services-area .item-single,
+html[theme=dark] .blog-details-area .comments .comment-reply .form-group .form-control,
+html[theme=dark] .integration-area.integration-4 .images .image,
+html[theme=dark] .feedback-area.feedback-4, html[theme=dark] .footer-area.footer-3,
+html[theme=dark] .pricing-plan-area.pricing-plan-4 .item-single,
+html[theme=dark] .main-features-area.main-features-3 .item-single,
+html[theme=dark] .integration-area.integration-4 .item-single,
+html[theme=dark] .sidebar-widget-area .widget,
+html[theme=dark] .contact-area.contact-6 .item-single,
+html[theme=dark] .about-area.about-3 .item-single,
+html[theme=dark] .header-area .main-navbar-area .main-nav .navbar .navbar-nav .nav-item .dropdown-menu {
+  background-color: #323232;
+}
+html[theme=dark] .contact-area,
+html[theme=dark] .cta-area.cta-4,
+html[theme=dark] .newsletter-area.newsletter-2.newsletter-bg,
+html[theme=dark] .pricing-area:not(.pricing-2, .pricing-3, .pricing-4, .pricing-5) {
+  background: #323232;
+}
+html[theme=dark] .overview-area.overview-four,
+html[theme=dark] .newsletter-area.newsletter-bg {
+  background: #1d1d1d;
+}
+html[theme=dark] .contact-3 {
+  background-color: #1c2038;
+}
+html[theme=dark] .secondary-btn.secondary-btn-2 {
+  background-color: #f4f4f4;
+}
+html[theme=dark] .feedback-2 .slider-item .slider-item-inner,
+html[theme=dark] .newsletter-area .newsletter-form .input-group,
+html[theme=dark] .services-area.services-2 .item-single .icon,
+html[theme=dark] .pricing-plan-area.pricing-plan-4 .item-single .primary-btn,
+html[theme=dark] .primary-btn.primary-btn-8 {
+  background-color: transparent;
+}
+html[theme=dark] .features-area .section-gap::after {
+  background-image: url(../images/features-bg-dark.png);
+}
+html[theme=dark] .blog-area.blog-with-shape::after {
+  background-image: url(../images/blog-bg-dark.png);
+}
+html[theme=dark] .home-banner-area.banner-bg.banner-1 {
+  background-image: url(../images/banner/banner-bg-1-dark.png);
+}
+html[theme=dark] .overview-area.overview-3 {
+  background-image: url(../images/overview-bg-dark.png);
+}
+html[theme=dark] .home-banner-area.banner-5 .bg-shape img {
+  content: url(../images/banner/wave-shape-1-dark.png);
+}
+html[theme=dark] .home-banner-area.banner-8 .bg-shape img {
+  content: url(../images/banner/wave-shape-2-dark.png);
+}
+html[theme=dark] .home-banner-area.banner-9 .bg-shape img {
+  content: url(../images/banner/wave-shape-3-dark.png);
+}
+html[theme=dark] .header-area .main-navbar-area .main-responsive-nav .main-responsive-menu.mean-container a.meanmenu-reveal span {
+  background-color: #f4f4f4;
+}
+html[theme=dark] .home-banner-area .banner-content .secondary-btn {
+  color: #323232 !important;
+}
+html[theme=dark] .secondary-btn {
+  color: #4f5eff;
+}
+html[theme=dark] .header-area .main-navbar-area .logo img:first-child, html[theme=dark] .header-area .main-navbar-area .navbar-brand img:first-child {
+  display: block !important;
+}
+html[theme=dark] .header-area .main-navbar-area .logo img:last-child, html[theme=dark] .header-area .main-navbar-area .navbar-brand img:last-child {
+  display: none !important;
+}
+html[theme=dark] .header-area .main-navbar-area.is-sticky .logo img:first-child, html[theme=dark] .header-area .main-navbar-area.is-sticky .navbar-brand img:first-child {
+  display: block !important;
+}
+html[theme=dark] .header-area.header-9 .main-navbar-area .main-nav .navbar .navbar-brand img:first-child {
+  display: none !important;
+}
+html[theme=dark] .header-area.header-9 .main-navbar-area .main-nav .navbar .navbar-brand img:last-child {
+  display: block !important;
+}
+html[theme=dark] .header-area.header-9 .is-sticky .main-nav .navbar .navbar-brand img:first-child {
+  display: block !important;
+}
+html[theme=dark] .header-area.header-9 .is-sticky .main-nav .navbar .navbar-brand img:last-child {
+  display: none !important;
+}
+html[theme=dark] .footer-area .logo img:first-child, html[theme=dark] .footer-area .navbar-brand img:first-child {
+  display: none;
+}
+html[theme=dark] .footer-area .logo img:last-child, html[theme=dark] .footer-area .navbar-brand img:last-child {
+  display: block;
+}
+html[theme=dark] .choose-area.choose-2 .bg-image,
+html[theme=dark] .testimonial-area.testimonial-4 .bg-image,
+html[theme=dark] .home-banner-area.banner-2 .bg-shape.bg-shape-2 {
+  opacity: 0.1;
+}
+html[theme=dark] #preLoader .wrapper .loader,
+html[theme=dark] .feedback-area.feedback-4 .slider-item .slider-item-inner .content,
+html[theme=dark] .pricing-plan-area.pricing-plan-4 .item-single,
+html[theme=dark] .main-features-area.main-features-3 .item-single,
+html[theme=dark] .contact-area.contact-6 .item-single,
+html[theme=dark] .integration-area.integration-4 .images .image,
+html[theme=dark] .newsletter-area.newsletter-3 .newsletter-form .input-group,
+html[theme=dark] .blog-area .item-single {
+  box-shadow: none;
+}
+@media only screen and (max-width: 767.98px) {
+  html[theme=dark] .integration-area .item-single,
+html[theme=dark] .choose-area .item-single,
+html[theme=dark] .main-features-area .item-single {
+    border-color: #323232;
+  }
+  html[theme=dark] .choose-area .item-single,
+html[theme=dark] .main-features-area .item-single {
+    background-color: #323232;
+  }
+}
+@media only screen and (max-width: 1199px) {
+  html[theme=dark] .header-area .main-navbar-area .main-responsive-nav .switch-toggle .toggle-slider::before {
+    color: #f4f4f4;
+    border-color: #f4f4f4;
+  }
+}/*# sourceMappingURL=dark-theme.css.map */
